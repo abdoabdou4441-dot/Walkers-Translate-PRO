@@ -41,7 +41,7 @@ import androidx.savedstate.setViewTreeSavedStateRegistryOwner
 import com.google.android.gms.tasks.Tasks
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
-import com.google.mlkit.vision.text.cyrillic.CyrillicTextRecognizerOptions
+import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import com.onlinerptrans.MainActivity
 import com.onlinerptrans.R
 import com.onlinerptrans.ui.overlay.FloatingBubbleContent
@@ -78,7 +78,7 @@ class FloatingOverlayService : Service(), LifecycleOwner, ViewModelStoreOwner, S
     private val serviceScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
 
     val translationManager = TranslationManager()
-    private val textRecognizer = TextRecognition.getClient(CyrillicTextRecognizerOptions.Builder().build())
+    private val textRecognizer = TextRecognition.getClient(TextRecognizerOptions.DEFAULT_OPTIONS)
 
     // ── UI state (read-only from OCR — no manual input) ──────────────────────
     var ocrText       by mutableStateOf("")

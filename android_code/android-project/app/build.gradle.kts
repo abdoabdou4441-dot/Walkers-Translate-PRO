@@ -75,7 +75,6 @@ dependencies {
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.mlkit.translate)
     implementation(libs.mlkit.text.recognition)
-    implementation(libs.mlkit.text.recognition.cyrillic)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.coroutines.play.services)
     debugImplementation(libs.androidx.ui.tooling)
