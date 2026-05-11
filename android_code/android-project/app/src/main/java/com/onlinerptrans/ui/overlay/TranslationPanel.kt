@@ -17,6 +17,7 @@ import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.TabRowDefaults.tabIndicatorOffset
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -594,7 +595,8 @@ private fun HistoryTab(service: FloatingOverlayService) {
                 modifier = Modifier.heightIn(max = 300.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(service.translationHistory) { entry ->
+                items(service.translationHistory.size) { index ->
+                    val entry = service.translationHistory[index]
                     HistoryRow(entry)
                 }
             }
