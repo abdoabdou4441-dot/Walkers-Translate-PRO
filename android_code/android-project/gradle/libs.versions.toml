@@ -6,7 +6,7 @@ lifecycleRuntimeKtx = "2.8.4"
 activityCompose = "1.9.1"
 composeBom = "2024.08.00"
 mlkitTranslate = "17.0.3"
-mlkitTextRecognition = "16.0.0"
+mlkitTextRecognition = "16.0.1"
 coroutines = "1.8.1"
 
 [libraries]
