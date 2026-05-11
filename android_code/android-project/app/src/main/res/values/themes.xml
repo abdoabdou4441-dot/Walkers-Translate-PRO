@@ -7,7 +7,7 @@
         this XML layer only governs system-UI chrome (status bar,
         nav bar, window background).
     -->
-    <style name="Theme.WalkersTranslate" parent="android:Theme.Material.NoTitleBar">
+    <style name="Theme.WalkersTranslate" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:statusBarColor">#FF000000</item>
         <item name="android:navigationBarColor">#FF000000</item>
