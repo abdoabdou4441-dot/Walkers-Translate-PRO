@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+
+    <!-- Outer glow circle -->
+    <path
+        android:fillColor="#1A00FFFF"
+        android:pathData="M28,2 A26,26 0 1,1 27.999,2 Z" />
+
+    <!-- Main circle background -->
+    <path
+        android:fillColor="#FF0D1117"
+        android:pathData="M28,6 A22,22 0 1,1 27.999,6 Z" />
+
+    <!-- Neon cyan ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF00FFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M28,8 A20,20 0 1,1 27.999,8 Z" />
+
+    <!-- Letter T (Translate) in neon cyan -->
+    <path
+        android:fillColor="#FF00FFFF"
+        android:pathData="M18,18 L38,18 L38,22 L30,22 L30,40 L26,40 L26,22 L18,22 Z" />
+
+</vector>

@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "Epasryt_BEK703GSgwSEp"
+uri = "file://online-rp-trans.tar.gz"
+type = "unspecified"
+title = "Online RP Trans — Complete Project + GitHub Actions"
+
+[[outputs]]
+id = "klc_uc3Dw5QdbS5Dzd9N9"
+uri = "file://online-rp-trans-final.tar.gz"
+type = "unspecified"
+title = "Online RP Trans V2 — Final Project (v1.0.1-LEO)"

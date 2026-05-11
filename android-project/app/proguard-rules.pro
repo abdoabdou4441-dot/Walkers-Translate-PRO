@@ -1,0 +1,5 @@
+-keep class com.google.mlkit.** { *; }
+-keep class com.onlinerptrans.** { *; }
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-dontwarn com.google.mlkit.**

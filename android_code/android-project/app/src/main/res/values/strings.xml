@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Walkers Translate</string>
+    <string name="notification_channel_name">خدمة الترجمة العائمة</string>
+    <string name="notification_channel_desc">تبقي خدمة الترجمة العائمة نشطة في الخلفية</string>
+    <string name="notification_title">Walkers Translate نشط</string>
+    <string name="notification_text">انقر على الفقاعة للترجمة</string>
+    <string name="btn_start_service">تشغيل خدمة الترجمة</string>
+    <string name="btn_stop_service">إيقاف خدمة الترجمة</string>
+    <string name="permission_title">إذن العرض فوق التطبيقات</string>
+    <string name="permission_desc">يحتاج هذا التطبيق إذن \'العرض فوق التطبيقات الأخرى\' لعرض الفقاعة العائمة أثناء اللعب.</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="tab_translate">ترجمة</string>
+    <string name="tab_dictionary">القاموس</string>
+    <string name="hint_paste_text">الصق النص الروسي هنا أو انسخه تلقائياً...</string>
+    <string name="translating">جاري الترجمة...</string>
+    <string name="translation_placeholder">ستظهر الترجمة هنا</string>
+    <string name="copy_translation">نسخ الترجمة</string>
+    <string name="clear">مسح</string>
+    <string name="model_downloading">جاري تحميل نموذج الترجمة...</string>
+    <string name="model_ready">نموذج الترجمة جاهز</string>
+    <string name="service_running">الخدمة تعمل</string>
+    <string name="service_stopped">الخدمة متوقفة</string>
+    <string name="app_description">أداة ترجمة عائمة للعب Online RP Mobile\nتترجم النص الروسي إلى الدارجة المغربية/العربية بدون مغادرة اللعبة</string>
+</resources>
